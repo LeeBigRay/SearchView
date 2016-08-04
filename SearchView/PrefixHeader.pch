@@ -1,0 +1,34 @@
+//
+//  PrefixHeader.pch
+//  TXSLiCai
+//
+//  Created by homer on 15/10/12.
+//  Copyright © 2015年 Arvin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define MerchantSearch @"MerchantSearch"
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0] 
+#define kScreenWidth ([UIScreen mainScreen].bounds.size.width)
+#define kScreenHeight ([UIScreen mainScreen].bounds.size.height)
+#define kTagW1 10000
+#define kTagW2 20000
+#define kTagW3 30000
+#define kTagW4 40000
+#define kTagW5 50000
+#define kTagQ1 1000
+#define kTagQ2 2000
+#define kTagQ3 3000
+#define kTagQ4 4000
+#define kTagQ5 5000
+#define kWidthRatio kScreenWidth/1242
+#define kWidthRatio_6 kScreenWidth/750
+#define kHeightRatio kScreenHeight/2208
+#define kHeightRatio_6 kScreenHeight/1334
+#define kHeightRatioFrame kScreenHeight/2208+64
+#define kFontSize kScreenWidth/414
+
+
+#endif /* PrefixHeader_pch */
