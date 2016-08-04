@@ -3,7 +3,7 @@
 
 一个自定义的SearchView,带有block方便事件处理 一行代码搞定一个搜索页面处理
 
-![](demo.gif)
+![](SearchView.gif)
 
 ##使用方法
 
@@ -21,15 +21,7 @@
 */
 - (instancetype)initSearchViewWithFrame:(CGRect)frame Parament:(id)parament search:(Search)search;``` 
 
-可以设置枚举定义样式
 
-``` 
-typedef NS_ENUM(NSInteger, AlertViewType)
-{
-AlertViewTypeSuccess,//一个点击按钮
-AlertViewTypeSelect//两个点击按钮
-};
-``` 
 
  
 
